@@ -1,0 +1,6 @@
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\Delegate\bin\Debug\Delegate.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\Delegate\bin\Debug\Delegate.pdb
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\Delegate\obj\Debug\Delegate.csprojAssemblyReference.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\Delegate\obj\Debug\Delegate.csproj.CoreCompileInputs.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\Delegate\obj\Debug\Delegate.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\Delegate\obj\Debug\Delegate.pdb

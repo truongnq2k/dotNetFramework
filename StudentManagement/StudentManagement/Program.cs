@@ -192,63 +192,7 @@ namespace StudentManagement
                         DisplayStudent();
                         break;
                     case 4:
-                        //unboxing to 3 list
-                        //remove list Students
-                        //add to list
-                        List<Student> normals = new List<Student>();
-                        List<Student> foreigns = new List<Student>();
-                        List<Student> vietnams = new List<Student>();
                         
-                        foreach(Student stu in Students)
-                        {
-                            try
-                            {
-                                ForeignStudent f = (ForeignStudent)stu;
-                                if (f.Country != null)
-                                {
-                                    foreigns.Add(f);
-                                    Students.Remove(stu);
-                                }
-                            }
-                            catch
-                            {
-                            }
-                        }
-
-                        foreach (Student stu in Students)
-                        {
-
-                            try
-                            {
-                                VietNamStudent f = (VietNamStudent)stu;
-                                if (f.IdentityNumber != null)
-                                {
-                                    
-                                    foreigns.Add(f);
-                                    Students.Remove(stu);
-                                }
-                            }
-                            catch
-                            {
-                            }
-
-                            
-                        }
-
-                        normals = Students;
-
-                        Students = new List<Student>();
-
-                        normals.Sort((a, b) => a.Id.CompareTo(b.Id));
-                        foreigns.Sort((a, b) => a.Id.CompareTo(b.Id));
-                        vietnams.Sort((a, b) => a.Id.CompareTo(b.Id));
-
-                        Students.AddRange(normals);
-                        Students.AddRange(foreigns);
-                        Students.AddRange(vietnams);
-
-                        DisplayStudent();
-
                         break;
                     case 5: return;
 
