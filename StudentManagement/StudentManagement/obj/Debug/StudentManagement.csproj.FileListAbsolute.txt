@@ -1,0 +1,6 @@
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csprojAssemblyReference.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.CoreCompileInputs.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagement\bin\Debug\StudentManagement.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagement\bin\Debug\StudentManagement.pdb
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagement\obj\Debug\StudentManagement.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagement\obj\Debug\StudentManagement.pdb
