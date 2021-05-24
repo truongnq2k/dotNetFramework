@@ -18,6 +18,13 @@ namespace StudentManagement
 
         static void Main(string[] args)
         {
+            FileText ft = new FileText();
+            ft.FileName = @"E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\demo.txt";
+            ft.WriteData();
+            ft.ReadData();
+            Console.ReadLine();
+
+
             while (true)
             {
                 Menu();

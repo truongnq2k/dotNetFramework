@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comparer.cs" />
+    <Compile Include="FileText.cs" />
     <Compile Include="SortStudent.cs" />
     <Compile Include="Validate.cs" />
     <Compile Include="VietNamStudent.cs" />
