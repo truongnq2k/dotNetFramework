@@ -34,7 +34,7 @@ namespace StudentManagement
 
         public override string ToString()
         {
-            return base.ToString() + identityNumber;
+            return base.ToString() + "| " + identityNumber;
         }
     }
 }

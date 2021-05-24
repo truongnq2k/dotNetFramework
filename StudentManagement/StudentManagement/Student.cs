@@ -53,7 +53,7 @@ namespace StudentManagement
 
         public override string ToString()
         {
-            return String.Format("{0} - {1} - {2} ", id, name, dob);
+            return String.Format(" | {0} | {1} | {2} ", id, name, dob);
         }
     }
 }

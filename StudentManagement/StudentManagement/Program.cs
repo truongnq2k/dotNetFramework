@@ -15,16 +15,9 @@ namespace StudentManagement
         static Student s1 = new ForeignStudent();
         static Student s2 = new VietNamStudent();
         #endregion
-
+        static FileText ft = new FileText();
         static void Main(string[] args)
         {
-            FileText ft = new FileText();
-            ft.FileName = @"E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\demo.txt";
-            ft.WriteData();
-            ft.ReadData();
-            Console.ReadLine();
-
-
             while (true)
             {
                 Menu();
@@ -85,6 +78,7 @@ namespace StudentManagement
 
         static void InputFunction()
         {
+            ft.FileName = @"E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\student.txt";
             while (true)
             {
                 MenuInputStudent();
@@ -92,18 +86,25 @@ namespace StudentManagement
                 {
                     case 1:
                         Students.Add(AddStudent(s));
+                        ft.WriteData("1" + s.ToString());
+                        Console.ReadLine();
                         Console.WriteLine("Add successfully!");
                         break;
                     case 2:
                         Students.Add(AddStudent(s1));
+                        ft.WriteData("2" + s.ToString());
+                        Console.ReadLine();
                         Console.WriteLine("Add successfully!");
                         break;
                     case 3:
                         Students.Add(AddStudent(s2));
+                        ft.WriteData("3" + s.ToString());
+                        Console.ReadLine();
                         Console.WriteLine("Add successfully!");
                         break;
                     case 4:
                         InitStudent();
+                        ft.UpdateListData(Students);
                         Console.WriteLine("Init successfully!");
                         break;
                     case 5:
@@ -144,10 +145,12 @@ namespace StudentManagement
         #region Display Student
         static void DisplayStudent()
         {
-            foreach(Student stu in Students)
-            {
-                Console.WriteLine(stu);
-            }
+            //foreach(Student stu in Students)
+            //{
+            //    Console.WriteLine(stu);
+            //}
+
+            ft.ReadData();
         }
         #endregion
 
@@ -188,18 +191,24 @@ namespace StudentManagement
                 {
                     case 1:
                         Students.Sort((a, b) => a.Name.CompareTo(b.Name));
+                        ft.UpdateListData(Students);
                         DisplayStudent();
                         break;
                     case 2:
                         Students.Sort((a, b) => a.Id.CompareTo(b.Id));
+                        ft.UpdateListData(Students);
                         DisplayStudent();
                         break;
                     case 3:
                         Students.Sort((a, b) => a.Dob.CompareTo(b.Dob));
+                        ft.UpdateListData(Students);
                         DisplayStudent();
                         break;
                     case 4:
-                        
+                        //TypeComparer tc = new TypeComparer();
+                        Students.Sort(new TypeComparer());
+                        ft.UpdateListData(Students);
+                        DisplayStudent();
                         break;
                     case 5: return;
 

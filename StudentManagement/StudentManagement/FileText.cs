@@ -22,17 +22,14 @@ namespace StudentManagement
 
         private System.IO.FileStream fs;
 
-        public void WriteData(Student student)
+
+
+
+        public void WriteData(string text)
         {
             fs = new System.IO.FileStream(fileName, FileMode.Append, FileAccess.Write, FileShare.None);
             StreamWriter sw = new StreamWriter(fs);
-
-            if ()
-            {
-
-            }
-
-            sw.WriteLine(student); //ghi vao file
+            sw.WriteLine(text); //ghi vao file
             sw.Flush();
             sw.Close();
             fs.Close();
@@ -48,6 +45,32 @@ namespace StudentManagement
                 str = sr.ReadLine();
             }
             sr.Close();
+            fs.Close();
+        }
+
+        public void UpdateListData(List<Student> Students)
+        {
+            fs = new System.IO.FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None);
+            StreamWriter sw = new StreamWriter(fs);
+
+            foreach (Student stu in Students)
+            {
+                if (stu.GetType().Name.Equals("Student"))
+                {
+                    sw.WriteLine("1" + stu.ToString());
+                }
+                if (stu.GetType().Name.Equals("ForeignStudent"))
+                {
+                    sw.WriteLine("2" + stu.ToString());
+                }
+                if (stu.GetType().Name.Equals("VietNamStudent"))
+                {
+                    sw.WriteLine("3" + stu.ToString());
+                }
+            }
+
+            sw.Flush();
+            sw.Close();
             fs.Close();
         }
     }

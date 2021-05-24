@@ -32,7 +32,7 @@ namespace StudentManagement
 
         public override string ToString()
         {
-            return base.ToString() + country;
+            return base.ToString() + "| " +  country;
         }
     }
 }
