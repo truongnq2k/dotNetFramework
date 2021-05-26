@@ -1,0 +1,12 @@
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\obj\Debug\StudentManagementFinal.csproj.CoreCompileInputs.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\obj\Debug\StudentManagementFinal.csprojAssemblyReference.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\bin\Debug\StudentManagementFinal.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\bin\Debug\StudentManagementFinal.pdb
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\bin\Debug\StudentClassInitialization.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\bin\Debug\StudentClassInitialization.pdb
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\obj\Debug\StudentManagementFinal.csproj.CopyComplete
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\obj\Debug\StudentManagementFinal.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\obj\Debug\StudentManagementFinal.pdb
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\bin\Debug\FileInitialization.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\bin\Debug\FileInitialization.pdb
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentManagementFinal\bin\Debug\StudentManagementFinal.exe.config

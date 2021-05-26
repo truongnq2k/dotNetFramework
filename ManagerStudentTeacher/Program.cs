@@ -14,8 +14,8 @@ namespace StudentManagement
         static void Main(string[] args)
         {
             StudentList list = new StudentList();
-            list.ReadFromFile(ConfigurationManager.AppSettings["InputFile"].ToString());
-            list.Display();
+            //list.ReadFromFile(ConfigurationManager.AppSettings["InputFile"].ToString());
+            //list.Display();
             list.WriteToFile(ConfigurationManager.AppSettings["OutputFile"].ToString());
             Console.ReadLine();
 

@@ -1,0 +1,8 @@
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\FileInitialization\obj\Debug\FileInitialization.csprojAssemblyReference.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\FileInitialization\obj\Debug\FileInitialization.csproj.CoreCompileInputs.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\FileInitialization\bin\Debug\FileInitialization.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\FileInitialization\bin\Debug\FileInitialization.pdb
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\FileInitialization\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\FileInitialization\obj\Debug\FileInitialization.csproj.CopyComplete
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\FileInitialization\obj\Debug\FileInitialization.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\FileInitialization\obj\Debug\FileInitialization.pdb

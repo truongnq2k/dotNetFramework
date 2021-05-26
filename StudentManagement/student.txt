@@ -1,15 +1,15 @@
 1 | 1 | Nguyen Quang Truong | 6/15/2000 12:00:00 AM 
-2 | 2 | Tran Van Kha | 2/12/2005 12:00:00 AM | Viet Nam
-3 | 3 | Vo Anh Duc | 6/15/2000 12:00:00 AM | 324121
-1 | 4 | Vu Lam Oanh | 11/11/2001 12:00:00 AM 
-2 | 5 | Nguyen Manh Tung | 7/11/2003 12:00:00 AM | Tau khua
-3 | 6 | Le Nhu Bac | 10/5/2001 12:00:00 AM | 954332
-1 | 7 | La Thanh Hai | 5/6/1995 12:00:00 AM 
-2 | 8 | Trinh Thi Mai Huong | 5/6/1995 12:00:00 AM | Thai Lan
-3 | 9 | Nguyen Quang Duy | 5/6/1995 12:00:00 AM | 654243
-1 | 10 | Duong Tien Dung | 8/27/2002 12:00:00 AM 
-2 | 11 | Pham Thi Huyen | 1/17/2002 12:00:00 AM | Laos
-3 | 12 | Trang Cong Phu | 8/28/2002 12:00:00 AM | 124323
 1 | 13 | Nguyen Van Long | 9/23/2004 12:00:00 AM 
+1 | 7 | La Thanh Hai | 5/6/1995 12:00:00 AM 
+1 | 10 | Duong Tien Dung | 8/27/2002 12:00:00 AM 
+1 | 4 | Vu Lam Oanh | 11/11/2001 12:00:00 AM 
+2 | 2 | Tran Van Kha | 2/12/2005 12:00:00 AM | Viet Nam
 2 | 14 | Phan Hoang Nam | 9/13/1991 12:00:00 AM | Campuchia
+2 | 8 | Trinh Thi Mai Huong | 5/6/1995 12:00:00 AM | Thai Lan
+2 | 11 | Pham Thi Huyen | 1/17/2002 12:00:00 AM | Laos
+2 | 5 | Nguyen Manh Tung | 7/11/2003 12:00:00 AM | Tau khua
+3 | 3 | Vo Anh Duc | 6/15/2000 12:00:00 AM | 324121
 3 | 15 | Luu Ngoc Long | 12/23/2001 12:00:00 AM | 423152
+3 | 9 | Nguyen Quang Duy | 5/6/1995 12:00:00 AM | 654243
+3 | 12 | Trang Cong Phu | 8/28/2002 12:00:00 AM | 124323
+3 | 6 | Le Nhu Bac | 10/5/2001 12:00:00 AM | 954332

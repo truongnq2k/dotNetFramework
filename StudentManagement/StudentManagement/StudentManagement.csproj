@@ -40,15 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Comparer.cs" />
-    <Compile Include="FileText.cs" />
-    <Compile Include="SortStudent.cs" />
-    <Compile Include="Validate.cs" />
-    <Compile Include="VietNamStudent.cs" />
-    <Compile Include="ForeignStudent.cs" />
-    <Compile Include="Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileInitialization\FileInitialization.csproj">
+      <Project>{195c2a9b-11da-4e64-8067-36bb1a7d6ae8}</Project>
+      <Name>FileInitialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StudentClassInitialization\StudentClassInitialization.csproj">
+      <Project>{64cef6e9-628c-4a0d-b9b2-05acff4b9291}</Project>
+      <Name>StudentClassInitialization</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

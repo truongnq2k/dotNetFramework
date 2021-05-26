@@ -1,0 +1,6 @@
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentClassInitialization\obj\Debug\StudentClassInitialization.csproj.CoreCompileInputs.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentClassInitialization\bin\Debug\StudentClassInitialization.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentClassInitialization\bin\Debug\StudentClassInitialization.pdb
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentClassInitialization\obj\Debug\StudentClassInitialization.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentClassInitialization\obj\Debug\StudentClassInitialization.pdb
+E:\Leaning\semester-5\Prn_Code_In_Class\StudentManagement\StudentClassInitialization\obj\Debug\StudentClassInitialization.csprojAssemblyReference.cache

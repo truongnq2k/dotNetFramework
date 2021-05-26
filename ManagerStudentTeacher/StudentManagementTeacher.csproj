@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Validate.cs" />
     <Compile Include="Comparer.cs" />
     <Compile Include="DemoDelegate.cs" />
     <Compile Include="ForeignStudents.cs" />
