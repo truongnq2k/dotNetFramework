@@ -1,0 +1,13 @@
+D:\Semeter5\PRN292\codeInClass\practice1\bin\Debug\practice1.exe
+D:\Semeter5\PRN292\codeInClass\practice1\bin\Debug\practice1.pdb
+D:\Semeter5\PRN292\codeInClass\practice1\obj\Debug\practice1.csprojAssemblyReference.cache
+D:\Semeter5\PRN292\codeInClass\practice1\obj\Debug\practice1.csproj.CoreCompileInputs.cache
+D:\Semeter5\PRN292\codeInClass\practice1\obj\Debug\practice1.exe
+D:\Semeter5\PRN292\codeInClass\practice1\obj\Debug\practice1.pdb
+D:\Submit\practice1\practice1\bin\Debug\practice1.exe
+D:\Submit\practice1\practice1\bin\Debug\practice1.pdb
+D:\Submit\practice1\practice1\obj\Debug\practice1.csprojAssemblyReference.cache
+D:\Submit\practice1\practice1\obj\Debug\practice1.csproj.CoreCompileInputs.cache
+D:\Submit\practice1\practice1\obj\Debug\practice1.exe
+D:\Submit\practice1\practice1\obj\Debug\practice1.pdb
+D:\Submit\practice1\practice1\bin\Debug\practice1.exe.config

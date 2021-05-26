@@ -15,6 +15,8 @@ namespace StudentManagement
         static Student s1 = new ForeignStudent();
         static Student s2 = new VietNamStudent();
         #endregion
+
+        #region Void Main
         static FileText ft = new FileText();
         static void Main(string[] args)
         {
@@ -49,6 +51,7 @@ namespace StudentManagement
                 }
             }
         }
+        #endregion
 
         #region Main menu
         static void Menu()

@@ -19,17 +19,12 @@ namespace StudentManagement
                 fileName = value;
             }
         }
-
         private System.IO.FileStream fs;
-
-
-
-
         public void WriteData(string text)
         {
             fs = new System.IO.FileStream(fileName, FileMode.Append, FileAccess.Write, FileShare.None);
             StreamWriter sw = new StreamWriter(fs);
-            sw.WriteLine(text); //ghi vao file
+            sw.WriteLine(text);
             sw.Flush();
             sw.Close();
             fs.Close();
@@ -47,7 +42,6 @@ namespace StudentManagement
             sr.Close();
             fs.Close();
         }
-
         public void UpdateListData(List<Student> Students)
         {
             fs = new System.IO.FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None);
