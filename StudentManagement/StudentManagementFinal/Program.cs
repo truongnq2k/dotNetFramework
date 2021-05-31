@@ -2,19 +2,31 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
-using System.Text;
 using StudentClassInitialization;
 using FileInitialization;
 
 namespace StudentManagementFinal
 {
+    #region Declare Delegate
+    delegate void HandleNumberList(int OldNumber, int NewNumber);
+    delegate void HandleInforChange();
+    #endregion
+
     class Program
     {
+        #region Event List Change
+        public static void OnNumberOfStudentChanged(int Before, int After)
+        {
+            Console.WriteLine($"List student changed from {Before} to {After} !");
+
+        }
+        #endregion
+
         #region List Student
         static List<Student> Students = new List<Student>();
         static Student s = new Student();
         static Student s1 = new ForeignStudent();
-        static Student s2 = new VietNamStudent();
+        static Student s2 = new VietNamStudent();      
         #endregion
 
         #region Method Main
@@ -86,30 +98,41 @@ namespace StudentManagementFinal
             while (true)
             {
                 MenuInputStudent();
+                TotalStudent ts = new TotalStudent(Students.Count);
                 switch (Convert.ToInt32(Console.ReadLine()))
                 {
                     case 1:
+                        ts.NumStudentChanged += OnNumberOfStudentChanged;
                         Students.Add(inputStudent(s));
+                        ts.TotalStudents = Students.Count;
                         FileText.WriteData(ConfigurationManager.AppSettings["FileName"].ToString(), "1 | " + s.ToString());
                         Console.WriteLine("Add student successfully!");
                         break;
                     case 2:
+                        ts.NumStudentChanged += OnNumberOfStudentChanged;
                         Students.Add(inputStudent(s1));
+                        ts.TotalStudents = Students.Count;
                         FileText.WriteData(ConfigurationManager.AppSettings["FileName"].ToString(), "2 | " + s1.ToString());
                         Console.WriteLine("Add Foreign student successfully!");
                         break;
                     case 3:
+                        ts.NumStudentChanged += OnNumberOfStudentChanged;
                         Students.Add(inputStudent(s2));
+                        ts.TotalStudents = Students.Count;
                         FileText.WriteData(ConfigurationManager.AppSettings["FileName"].ToString(), "3 | " + s2.ToString());
                         Console.WriteLine("Add VN sutdent successfully!");
                         break;
                     case 4:
+                        ts.NumStudentChanged += OnNumberOfStudentChanged;
                         InitStudent();
+                        ts.TotalStudents = Students.Count;
                         //ft.UpdateListData(Students);
                         Console.WriteLine("Init successfully!");
                         break;
                     case 5:
+                        ts.NumStudentChanged += OnNumberOfStudentChanged;
                         Students = convertFileToListStudents(ConfigurationManager.AppSettings["FileName"].ToString());
+                        ts.TotalStudents = Students.Count;
                         Console.WriteLine();
                         break;
                     case 6:
@@ -158,6 +181,11 @@ namespace StudentManagementFinal
             }
         }
         #endregion
+
+        static void EditStudent(Student s)
+        {
+
+        }
 
         #region Convert LineFile To Student
         public static List<Student> convertFileToListStudents(string FileName)

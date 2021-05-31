@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{58B5EBCB-27DF-4280-83F9-54DB66F6FB2F}</ProjectGuid>
+    <ProjectGuid>{50168028-6556-438D-94FD-DF8F64332AF6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StudentManagementFinal</RootNamespace>
-    <AssemblyName>StudentManagementFinal</AssemblyName>
+    <RootNamespace>Event</RootNamespace>
+    <AssemblyName>Event</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -33,7 +33,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,21 +42,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TotalStudent.cs" />
-    <Compile Include="Validation.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FileInitialization\FileInitialization.csproj">
-      <Project>{195c2a9b-11da-4e64-8067-36bb1a7d6ae8}</Project>
-      <Name>FileInitialization</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\StudentClassInitialization\StudentClassInitialization.csproj">
-      <Project>{64cef6e9-628c-4a0d-b9b2-05acff4b9291}</Project>
-      <Name>StudentClassInitialization</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
