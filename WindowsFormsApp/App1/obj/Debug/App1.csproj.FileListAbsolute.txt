@@ -1,0 +1,9 @@
+E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App1\bin\Debug\App1.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App1\bin\Debug\App1.pdb
+E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App1\obj\Debug\App1.csprojAssemblyReference.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App1\obj\Debug\App1.ChangeHour.resources
+E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App1\obj\Debug\App1.Properties.Resources.resources
+E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App1\obj\Debug\App1.csproj.GenerateResource.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App1\obj\Debug\App1.csproj.CoreCompileInputs.cache
+E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App1\obj\Debug\App1.exe
+E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App1\obj\Debug\App1.pdb

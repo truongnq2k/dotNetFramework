@@ -182,11 +182,6 @@ namespace StudentManagementFinal
         }
         #endregion
 
-        static void EditStudent(Student s)
-        {
-
-        }
-
         #region Convert LineFile To Student
         public static List<Student> convertFileToListStudents(string FileName)
         {
