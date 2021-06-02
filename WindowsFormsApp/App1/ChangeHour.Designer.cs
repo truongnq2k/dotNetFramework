@@ -30,6 +30,9 @@ namespace App1
         private void InitializeComponent()
         {
             this.Result = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.delete = new System.Windows.Forms.Button();
@@ -44,15 +47,25 @@ namespace App1
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.lbDay = new System.Windows.Forms.Label();
+            this.lbHour = new System.Windows.Forms.Label();
+            this.lbMinutes = new System.Windows.Forms.Label();
+            this.btnDot = new System.Windows.Forms.Button();
             this.Result.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Result
             // 
+            this.Result.Controls.Add(this.lbMinutes);
+            this.Result.Controls.Add(this.lbHour);
+            this.Result.Controls.Add(this.lbDay);
+            this.Result.Controls.Add(this.textBox5);
+            this.Result.Controls.Add(this.textBox4);
+            this.Result.Controls.Add(this.textBox3);
             this.Result.Controls.Add(this.label2);
             this.Result.Controls.Add(this.label1);
             this.Result.Controls.Add(this.textBox1);
@@ -61,6 +74,31 @@ namespace App1
             this.Result.Name = "Result";
             this.Result.Size = new System.Drawing.Size(308, 418);
             this.Result.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 252);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 17);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Minutes";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 178);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 17);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Hour";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(2, 198);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(303, 22);
+            this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
@@ -72,6 +110,7 @@ namespace App1
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnDot);
             this.panel1.Controls.Add(this.delete);
             this.panel1.Controls.Add(this.buttonCE);
             this.panel1.Controls.Add(this.button0);
@@ -91,7 +130,7 @@ namespace App1
             // 
             // delete
             // 
-            this.delete.Location = new System.Drawing.Point(219, 301);
+            this.delete.Location = new System.Drawing.Point(219, 185);
             this.delete.Name = "delete";
             this.delete.Size = new System.Drawing.Size(75, 23);
             this.delete.TabIndex = 12;
@@ -101,7 +140,7 @@ namespace App1
             // 
             // buttonCE
             // 
-            this.buttonCE.Location = new System.Drawing.Point(57, 301);
+            this.buttonCE.Location = new System.Drawing.Point(138, 185);
             this.buttonCE.Name = "buttonCE";
             this.buttonCE.Size = new System.Drawing.Size(75, 23);
             this.buttonCE.TabIndex = 11;
@@ -209,30 +248,66 @@ namespace App1
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // textBox3
             // 
-            this.textBox1.Location = new System.Drawing.Point(2, 198);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(303, 22);
-            this.textBox1.TabIndex = 2;
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(0, 319);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(70, 22);
+            this.textBox3.TabIndex = 6;
             // 
-            // label1
+            // textBox4
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 178);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 17);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Hour";
+            this.textBox4.Enabled = false;
+            this.textBox4.Location = new System.Drawing.Point(100, 319);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(70, 22);
+            this.textBox4.TabIndex = 7;
             // 
-            // label2
+            // textBox5
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 252);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 17);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Minutes";
+            this.textBox5.Enabled = false;
+            this.textBox5.Location = new System.Drawing.Point(206, 319);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(70, 22);
+            this.textBox5.TabIndex = 8;
+            // 
+            // lbDay
+            // 
+            this.lbDay.AutoSize = true;
+            this.lbDay.Location = new System.Drawing.Point(76, 322);
+            this.lbDay.Name = "lbDay";
+            this.lbDay.Size = new System.Drawing.Size(18, 17);
+            this.lbDay.TabIndex = 9;
+            this.lbDay.Text = "D";
+            // 
+            // lbHour
+            // 
+            this.lbHour.AutoSize = true;
+            this.lbHour.Location = new System.Drawing.Point(176, 322);
+            this.lbHour.Name = "lbHour";
+            this.lbHour.Size = new System.Drawing.Size(18, 17);
+            this.lbHour.TabIndex = 10;
+            this.lbHour.Text = "H";
+            // 
+            // lbMinutes
+            // 
+            this.lbMinutes.AutoSize = true;
+            this.lbMinutes.Location = new System.Drawing.Point(282, 322);
+            this.lbMinutes.Name = "lbMinutes";
+            this.lbMinutes.Size = new System.Drawing.Size(19, 17);
+            this.lbMinutes.TabIndex = 11;
+            this.lbMinutes.Text = "M";
+            // 
+            // btnDot
+            // 
+            this.btnDot.Location = new System.Drawing.Point(219, 301);
+            this.btnDot.Name = "btnDot";
+            this.btnDot.Size = new System.Drawing.Size(75, 23);
+            this.btnDot.TabIndex = 13;
+            this.btnDot.Text = "dot";
+            this.btnDot.UseVisualStyleBackColor = true;
+            this.btnDot.Click += new System.EventHandler(this.btnDot_Click);
             // 
             // ChangeHour
             // 
@@ -271,6 +346,13 @@ namespace App1
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lbMinutes;
+        private System.Windows.Forms.Label lbHour;
+        private System.Windows.Forms.Label lbDay;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button btnDot;
     }
 }
 
