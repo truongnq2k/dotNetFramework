@@ -30,11 +30,18 @@ namespace App1
         private void InitializeComponent()
         {
             this.Result = new System.Windows.Forms.Panel();
+            this.lbMinutes = new System.Windows.Forms.Label();
+            this.lbHour = new System.Windows.Forms.Label();
+            this.lbDay = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnDot = new System.Windows.Forms.Button();
             this.delete = new System.Windows.Forms.Button();
             this.buttonCE = new System.Windows.Forms.Button();
             this.button0 = new System.Windows.Forms.Button();
@@ -47,13 +54,6 @@ namespace App1
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.lbDay = new System.Windows.Forms.Label();
-            this.lbHour = new System.Windows.Forms.Label();
-            this.lbMinutes = new System.Windows.Forms.Label();
-            this.btnDot = new System.Windows.Forms.Button();
             this.Result.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -74,6 +74,57 @@ namespace App1
             this.Result.Name = "Result";
             this.Result.Size = new System.Drawing.Size(308, 418);
             this.Result.TabIndex = 0;
+            // 
+            // lbMinutes
+            // 
+            this.lbMinutes.AutoSize = true;
+            this.lbMinutes.Location = new System.Drawing.Point(192, 322);
+            this.lbMinutes.Name = "lbMinutes";
+            this.lbMinutes.Size = new System.Drawing.Size(19, 17);
+            this.lbMinutes.TabIndex = 11;
+            this.lbMinutes.Text = "M";
+            // 
+            // lbHour
+            // 
+            this.lbHour.AutoSize = true;
+            this.lbHour.Location = new System.Drawing.Point(136, 322);
+            this.lbHour.Name = "lbHour";
+            this.lbHour.Size = new System.Drawing.Size(18, 17);
+            this.lbHour.TabIndex = 10;
+            this.lbHour.Text = "H";
+            // 
+            // lbDay
+            // 
+            this.lbDay.AutoSize = true;
+            this.lbDay.Location = new System.Drawing.Point(76, 322);
+            this.lbDay.Name = "lbDay";
+            this.lbDay.Size = new System.Drawing.Size(18, 17);
+            this.lbDay.TabIndex = 9;
+            this.lbDay.Text = "D";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Enabled = false;
+            this.textBox5.Location = new System.Drawing.Point(160, 319);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(26, 22);
+            this.textBox5.TabIndex = 8;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Enabled = false;
+            this.textBox4.Location = new System.Drawing.Point(100, 319);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(30, 22);
+            this.textBox4.TabIndex = 7;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(40, 319);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(30, 22);
+            this.textBox3.TabIndex = 6;
             // 
             // label2
             // 
@@ -128,14 +179,25 @@ namespace App1
             this.panel1.Size = new System.Drawing.Size(350, 418);
             this.panel1.TabIndex = 2;
             // 
+            // btnDot
+            // 
+            this.btnDot.Location = new System.Drawing.Point(219, 301);
+            this.btnDot.Name = "btnDot";
+            this.btnDot.Size = new System.Drawing.Size(75, 23);
+            this.btnDot.TabIndex = 13;
+            this.btnDot.Text = "dot";
+            this.btnDot.UseVisualStyleBackColor = true;
+            this.btnDot.Click += new System.EventHandler(this.btnDot_Click);
+            // 
             // delete
             // 
+            this.delete.BackColor = System.Drawing.SystemColors.Control;
             this.delete.Location = new System.Drawing.Point(219, 185);
             this.delete.Name = "delete";
             this.delete.Size = new System.Drawing.Size(75, 23);
             this.delete.TabIndex = 12;
             this.delete.Text = "x";
-            this.delete.UseVisualStyleBackColor = true;
+            this.delete.UseVisualStyleBackColor = false;
             this.delete.Click += new System.EventHandler(this.delete_Click);
             // 
             // buttonCE
@@ -247,67 +309,6 @@ namespace App1
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(0, 319);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(70, 22);
-            this.textBox3.TabIndex = 6;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(100, 319);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(70, 22);
-            this.textBox4.TabIndex = 7;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(206, 319);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(70, 22);
-            this.textBox5.TabIndex = 8;
-            // 
-            // lbDay
-            // 
-            this.lbDay.AutoSize = true;
-            this.lbDay.Location = new System.Drawing.Point(76, 322);
-            this.lbDay.Name = "lbDay";
-            this.lbDay.Size = new System.Drawing.Size(18, 17);
-            this.lbDay.TabIndex = 9;
-            this.lbDay.Text = "D";
-            // 
-            // lbHour
-            // 
-            this.lbHour.AutoSize = true;
-            this.lbHour.Location = new System.Drawing.Point(176, 322);
-            this.lbHour.Name = "lbHour";
-            this.lbHour.Size = new System.Drawing.Size(18, 17);
-            this.lbHour.TabIndex = 10;
-            this.lbHour.Text = "H";
-            // 
-            // lbMinutes
-            // 
-            this.lbMinutes.AutoSize = true;
-            this.lbMinutes.Location = new System.Drawing.Point(282, 322);
-            this.lbMinutes.Name = "lbMinutes";
-            this.lbMinutes.Size = new System.Drawing.Size(19, 17);
-            this.lbMinutes.TabIndex = 11;
-            this.lbMinutes.Text = "M";
-            // 
-            // btnDot
-            // 
-            this.btnDot.Location = new System.Drawing.Point(219, 301);
-            this.btnDot.Name = "btnDot";
-            this.btnDot.Size = new System.Drawing.Size(75, 23);
-            this.btnDot.TabIndex = 13;
-            this.btnDot.Text = "dot";
-            this.btnDot.UseVisualStyleBackColor = true;
-            this.btnDot.Click += new System.EventHandler(this.btnDot_Click);
             // 
             // ChangeHour
             // 
