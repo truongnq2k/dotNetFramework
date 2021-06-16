@@ -30,10 +30,13 @@ namespace Database
 
             dataGridView.Columns.Add("ProductId", "PID");
             dataGridView.Columns["ProductId"].DataPropertyName = "ProductId";
+
             dataGridView.Columns.Add("ProductName", "Product Name");
             dataGridView.Columns["ProductName"].DataPropertyName = "ProductName";
+
             dataGridView.Columns.Add("CategoryName", "Category");
             dataGridView.Columns["CategoryName"].DataPropertyName = "CategoryName";
+
             dataGridView.Columns.Add("UnitPrice", "Price");
             dataGridView.Columns["UnitPrice"].DataPropertyName = "UnitPrice";
 
@@ -45,6 +48,7 @@ namespace Database
             editButton.UseColumnTextForButtonValue = true;
             dataGridView.Columns.Add(editButton);
 
+            //load category
             comboBoxCategory.DisplayMember = "CategoryName";
             comboBoxCategory.ValueMember = "CategoryId";
             comboBoxCategory.DataSource = DAO.GetAllCategory();

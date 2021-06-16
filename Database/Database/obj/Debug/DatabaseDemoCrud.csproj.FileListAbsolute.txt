@@ -1,0 +1,12 @@
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\bin\Debug\Database.exe.config
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\bin\Debug\Database.exe
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\bin\Debug\Database.pdb
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\obj\Debug\DatabaseDemoCrud.csproj.AssemblyReference.cache
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\obj\Debug\Database.EditProduct.resources
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\obj\Debug\Database.InsertProduct.resources
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\obj\Debug\Database.ProductController.resources
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\obj\Debug\Database.Properties.Resources.resources
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\obj\Debug\DatabaseDemoCrud.csproj.GenerateResource.cache
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\obj\Debug\DatabaseDemoCrud.csproj.CoreCompileInputs.cache
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\obj\Debug\Database.exe
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\Database\obj\Debug\Database.pdb

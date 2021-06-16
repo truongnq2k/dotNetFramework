@@ -12,6 +12,7 @@ namespace Database
     {
         public static SqlConnection GetConnection()
         {
+            //"server=localhost; database=Northwind; user=sa; password=123456";
             string conStr = ConfigurationManager.ConnectionStrings["NorthWind"].ToString();
             return new SqlConnection(conStr);
         }
@@ -54,7 +55,7 @@ namespace Database
         public static void DeleteProductById(int ProductId)
         {
             string sql = @"DELETE FROM [Order Details] WHERE ProductID = @pid DELETE FROM Products WHERE ProductId = @pid";
-            SqlParameter parameter = new SqlParameter("@pid", SqlDbType.Int);
+            SqlParameter parameter = new SqlParameter("@pid", ProductId);
             parameter.Value = ProductId;
             UpdateProduct(sql, parameter);
         }
