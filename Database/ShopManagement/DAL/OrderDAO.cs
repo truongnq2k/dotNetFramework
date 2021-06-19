@@ -16,7 +16,6 @@ namespace ShopManagement.DAL
                 "Orders ON Customers.CustomerID = Orders.CustomerID INNER JOIN " +
                 "Employees ON Orders.EmployeeID = Employees.EmployeeID " +
                 "WHERE Orders.CustomerID = @CusID AND Orders.EmployeeID =@EmID " +
-                "AND Orders.ShippedDate < Orders.RequiredDate " +
                 "AND Orders.OrderDate BETWEEN @DateFrom AND @DateTo ");
             sql.Parameters.AddWithValue("@EmID", EmID);
             sql.Parameters.AddWithValue("@CusID", CusID);
@@ -39,5 +38,8 @@ namespace ShopManagement.DAL
             sql.Parameters.AddWithValue("@DateTo", DateTo);
             return DAO.GetDataTable(sql);
         }
+
+
+
     }
 }

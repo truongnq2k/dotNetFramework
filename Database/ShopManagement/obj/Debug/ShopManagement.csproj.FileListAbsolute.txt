@@ -6,6 +6,6 @@ E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\ShopManagement\obj\Debug\Shop
 E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\ShopManagement\obj\Debug\ShopManagement.csproj.CoreCompileInputs.cache
 E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\ShopManagement\obj\Debug\ShopManagement.exe
 E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\ShopManagement\obj\Debug\ShopManagement.pdb
-E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\ShopManagement\obj\Debug\ShopManagement.csproj.AssemblyReference.cache
 E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\ShopManagement\bin\Debug\ShopManagement.exe.config
 E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\ShopManagement\obj\Debug\ShopManagement.AddOrder.resources
+E:\_LEARNING\semester-5\Prn_Code_In_Class\Database\ShopManagement\obj\Debug\ShopManagement.csproj.AssemblyReference.cache

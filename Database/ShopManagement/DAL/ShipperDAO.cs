@@ -6,12 +6,12 @@ using System.Text;
 
 namespace ShopManagement.DAL
 {
-    class EmployeeDAO
+    class ShipperDAO
     {
-        public static DataTable GetAllEmployee()
+        public static DataTable GetAllShipper()
         {
-            string sql = "SELECT EmployeeID, LastName FROM Employees";
+            string sql = @"SELECT ShipperID, CompanyName FROM Shippers";
             return DAO.GetDataTable(sql);
-        }
+        }   
     }
 }

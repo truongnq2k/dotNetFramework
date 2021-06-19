@@ -6,11 +6,11 @@ using System.Text;
 
 namespace ShopManagement.DAL
 {
-    class EmployeeDAO
+    class ProductDAO
     {
-        public static DataTable GetAllEmployee()
+        public static DataTable GetProduct()
         {
-            string sql = "SELECT EmployeeID, LastName FROM Employees";
+            string sql = @"SELECT ProductID , ProductName, UnitPrice, UnitsInStock FROM Products WHERE UnitsInStock > 0";
             return DAO.GetDataTable(sql);
         }
     }

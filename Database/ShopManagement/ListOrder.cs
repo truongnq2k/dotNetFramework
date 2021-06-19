@@ -36,7 +36,7 @@ namespace ShopManagement
 
             cbEmployee.DisplayMember = "LastName";
             cbEmployee.ValueMember = "EmployeeID";
-            cbEmployee.DataSource = EmployeeDAO.GetAllEmployees();
+            cbEmployee.DataSource = EmployeeDAO.GetAllEmployee();
 
             dtpFrom.Value = DateTime.ParseExact("1900-01-01 00:00:00,531", "yyyy-MM-dd HH:mm:ss,fff",
                                        System.Globalization.CultureInfo.InvariantCulture);

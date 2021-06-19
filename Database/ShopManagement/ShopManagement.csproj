@@ -54,6 +54,8 @@
     <Compile Include="DAL\DAO.cs" />
     <Compile Include="DAL\EmployeeDAO.cs" />
     <Compile Include="DAL\OrderDAO.cs" />
+    <Compile Include="DAL\ProductDAO.cs" />
+    <Compile Include="DAL\ShipperDAO.cs" />
     <Compile Include="Entity\Customer.cs" />
     <Compile Include="ListOrder.cs">
       <SubType>Form</SubType>
