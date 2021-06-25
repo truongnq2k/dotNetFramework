@@ -1,0 +1,14 @@
+D:\Submit\practice1\FirstWebApp\bin\FirstWebApp.dll.config
+D:\Submit\practice1\FirstWebApp\bin\FirstWebApp.dll
+D:\Submit\practice1\FirstWebApp\bin\FirstWebApp.pdb
+D:\Submit\practice1\FirstWebApp\obj\Debug\FirstWebApp.csprojAssemblyReference.cache
+D:\Submit\practice1\FirstWebApp\obj\Debug\FirstWebApp.csproj.CoreCompileInputs.cache
+D:\Submit\practice1\FirstWebApp\obj\Debug\FirstWebApp.dll
+D:\Submit\practice1\FirstWebApp\obj\Debug\FirstWebApp.pdb
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\FirstWebApp\bin\FirstWebApp.dll.config
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\FirstWebApp\bin\FirstWebApp.dll
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\FirstWebApp\bin\FirstWebApp.pdb
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\FirstWebApp\obj\Debug\FirstWebApp.csproj.AssemblyReference.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\FirstWebApp\obj\Debug\FirstWebApp.csproj.CoreCompileInputs.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\FirstWebApp\obj\Debug\FirstWebApp.dll
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\FirstWebApp\obj\Debug\FirstWebApp.pdb

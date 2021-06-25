@@ -1,0 +1,8 @@
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\WinFormCRUD\bin\Debug\WinFormCRUD.exe
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\WinFormCRUD\bin\Debug\WinFormCRUD.pdb
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\WinFormCRUD\obj\Debug\WinFormCRUD.csproj.AssemblyReference.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\WinFormCRUD\obj\Debug\WinFormCRUD.Properties.Resources.resources
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\WinFormCRUD\obj\Debug\WinFormCRUD.csproj.GenerateResource.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\WinFormCRUD\obj\Debug\WinFormCRUD.csproj.CoreCompileInputs.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\WinFormCRUD\obj\Debug\WinFormCRUD.exe
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\WinFormCRUD\obj\Debug\WinFormCRUD.pdb
