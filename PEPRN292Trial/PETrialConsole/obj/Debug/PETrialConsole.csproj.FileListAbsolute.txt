@@ -1,0 +1,5 @@
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialConsole\bin\Debug\PETrialConsole.exe
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialConsole\bin\Debug\PETrialConsole.pdb
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialConsole\obj\Debug\PETrialConsole.csproj.CoreCompileInputs.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialConsole\obj\Debug\PETrialConsole.exe
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialConsole\obj\Debug\PETrialConsole.pdb

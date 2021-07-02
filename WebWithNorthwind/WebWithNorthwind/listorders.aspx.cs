@@ -92,5 +92,11 @@ namespace WebWithNorthwind
         {
             LoadDataForDGV();
         }
+
+        protected void gvProducts_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            gvProducts.PageIndex = e.NewPageIndex;
+            LoadDataForDGV();
+        }
     }
 }

@@ -1,0 +1,7 @@
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialWebforms\bin\PETrialWebforms.dll.config
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialWebforms\bin\PETrialWebforms.dll
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialWebforms\bin\PETrialWebforms.pdb
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialWebforms\obj\Debug\PETrialWebforms.csproj.CoreCompileInputs.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialWebforms\obj\Debug\PETrialWebforms.dll
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialWebforms\obj\Debug\PETrialWebforms.pdb
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\PEPRN292Trial\PETrialWebforms\obj\Debug\PETrialWebforms.csproj.AssemblyReference.cache
