@@ -65,11 +65,35 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="addtocart.aspx" />
+    <Content Include="Cart.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="home.aspx" />
     <Content Include="listorders.aspx" />
+    <Content Include="listproduct.aspx" />
+    <Content Include="RemoveItem.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\Model\PageItem.cs" />
+    <Compile Include="addtocart.aspx.cs">
+      <DependentUpon>addtocart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addtocart.aspx.designer.cs">
+      <DependentUpon>addtocart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs" />
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -84,7 +108,21 @@
     <Compile Include="listorders.aspx.designer.cs">
       <DependentUpon>listorders.aspx</DependentUpon>
     </Compile>
+    <Compile Include="listproduct.aspx.cs">
+      <DependentUpon>listproduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listproduct.aspx.designer.cs">
+      <DependentUpon>listproduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveItem.aspx.cs">
+      <DependentUpon>RemoveItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RemoveItem.aspx.designer.cs">
+      <DependentUpon>RemoveItem.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
@@ -92,9 +130,7 @@
       <Name>DataAccessLayer</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Code\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>

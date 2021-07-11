@@ -12,7 +12,6 @@
 </head>
 <body>
     <form id="ListOrderForm" runat="server" class="container">
-
         <div class="row mt-5">
             <div class="col-sm-4">
                 <div class="my-2">
@@ -58,10 +57,6 @@
                         </Columns>
                         <PagerSettings Mode="Numeric" />
                     </asp:GridView>
-
-                    <FTB:FreeTextBox ID="FreeTextBox" runat="server">
-                    </FTB:FreeTextBox>
-
                 </div>
             </div>
         </div>
