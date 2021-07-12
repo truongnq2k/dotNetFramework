@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="addtocart.aspx" />
     <Content Include="Cart.aspx" />
+    <Content Include="Checkout.aspx" />
     <Content Include="Global.asax" />
     <Content Include="home.aspx" />
     <Content Include="listorders.aspx" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="addtocart.aspx.designer.cs">
       <DependentUpon>addtocart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout.aspx.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout.aspx.designer.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Product.cs" />
     <Compile Include="Cart.aspx.cs">
@@ -128,6 +136,10 @@
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
       <Project>{707dc2b4-90a0-4194-8ba9-973429a8a6b0}</Project>
       <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibraryDonViHanhChinh\LibraryDonViHanhChinh.csproj">
+      <Project>{da441a96-66da-4861-92ca-61424b8f7f2f}</Project>
+      <Name>LibraryDonViHanhChinh</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

@@ -1,0 +1,74 @@
+﻿USE [DVHCVN]
+GO
+/****** Object:  Table [dbo].[district]    Script Date: 7/12/2021 10:33:26 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[district](
+	[id] [char](6) NOT NULL,
+	[name] [nvarchar](45) NULL,
+	[type] [nvarchar](45) NULL,
+	[province_id] [char](6) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[province]    Script Date: 7/12/2021 10:33:26 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[province](
+	[id] [char](6) NOT NULL,
+	[name] [nvarchar](55) NULL,
+	[type] [nvarchar](45) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[ward]    Script Date: 7/12/2021 10:33:26 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[ward](
+	[id] [char](6) NOT NULL,
+	[name] [nvarchar](55) NULL,
+	[type] [nvarchar](45) NULL,
+	[district_id] [char](6) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[district]  WITH CHECK ADD  CONSTRAINT [FK_district_province] FOREIGN KEY([province_id])
+REFERENCES [dbo].[province] ([id])
+GO
+ALTER TABLE [dbo].[district] CHECK CONSTRAINT [FK_district_province]
+GO
+ALTER TABLE [dbo].[ward]  WITH CHECK ADD  CONSTRAINT [FK_ward_district] FOREIGN KEY([district_id])
+REFERENCES [dbo].[district] ([id])
+GO
+ALTER TABLE [dbo].[ward] CHECK CONSTRAINT [FK_ward_district]
+GO

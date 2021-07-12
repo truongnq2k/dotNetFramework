@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAcce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormCRUD", "WinFormCRUD\WinFormCRUD.csproj", "{A3945931-C74C-4CEA-AF16-5C304A437318}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDonViHanhChinh", "LibraryDonViHanhChinh\LibraryDonViHanhChinh.csproj", "{DA441A96-66DA-4861-92CA-61424B8F7F2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A3945931-C74C-4CEA-AF16-5C304A437318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3945931-C74C-4CEA-AF16-5C304A437318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3945931-C74C-4CEA-AF16-5C304A437318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA441A96-66DA-4861-92CA-61424B8F7F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA441A96-66DA-4861-92CA-61424B8F7F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA441A96-66DA-4861-92CA-61424B8F7F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA441A96-66DA-4861-92CA-61424B8F7F2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

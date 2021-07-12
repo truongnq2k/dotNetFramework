@@ -59,6 +59,8 @@ namespace WebWithNorthwind
 
                 gvProducts.DataSource = ProductsDAO.GetProductsByPage(start, PageSize);
                 gvProducts.DataBind();
+
+
             }
 
 

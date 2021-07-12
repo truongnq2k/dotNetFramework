@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Shop NorthWind</title>
+    <meta charset="utf-8" />
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <style>
@@ -82,7 +83,7 @@
                 <button type="button" class="btn btn-lg btn-success" disabled="disabled">Total:  <%= Total %>$</button>
                 <% if (Total > 0)
                     { %>
-                <button type="button" class="btn btn-secondary btn-lg">Checkout</button>
+                <a href="Checkout.aspx" class="btn btn-secondary btn-lg">Checkout</a>
                 <% } %>
             </div>
         </div>

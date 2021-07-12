@@ -1,0 +1,7 @@
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\LibraryDonViHanhChinh\bin\Debug\LibraryDonViHanhChinh.dll.config
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\LibraryDonViHanhChinh\bin\Debug\LibraryDonViHanhChinh.dll
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\LibraryDonViHanhChinh\bin\Debug\LibraryDonViHanhChinh.pdb
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\LibraryDonViHanhChinh\obj\Debug\LibraryDonViHanhChinh.csproj.AssemblyReference.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\LibraryDonViHanhChinh\obj\Debug\LibraryDonViHanhChinh.csproj.CoreCompileInputs.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\LibraryDonViHanhChinh\obj\Debug\LibraryDonViHanhChinh.dll
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\LibraryDonViHanhChinh\obj\Debug\LibraryDonViHanhChinh.pdb

@@ -4,3 +4,4 @@ D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\DataAccessLay
 D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\DataAccessLayer\obj\Debug\DataAccessLayer.exe
 D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebWithNorthwind\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
