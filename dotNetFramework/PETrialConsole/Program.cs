@@ -17,6 +17,8 @@ namespace PETrialConsole
             s.ReadFromString("2|Hung|Hai Duong");
             Console.WriteLine(s.ToString());
 
+
+
             EmployeeList emplist = new EmployeeList();
             emplist.ReadFromFile(@"D:\data.txt");
             emplist.Display();

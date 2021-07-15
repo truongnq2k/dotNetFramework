@@ -11,7 +11,9 @@ namespace PETrialConsole
         public string EmployeeName { get; set; }
         public string Address { get; set; }
 
-        public Employee() { }
+        public Employee()
+        {
+        }
 
         public Employee(int employeeID, string employeeName, string address)
         {

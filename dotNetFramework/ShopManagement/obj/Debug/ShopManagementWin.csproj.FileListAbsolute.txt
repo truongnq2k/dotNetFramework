@@ -1,0 +1,11 @@
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\bin\Debug\ShopManagement.exe.config
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\bin\Debug\ShopManagement.exe
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\bin\Debug\ShopManagement.pdb
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\obj\Debug\ShopManagementWin.csproj.AssemblyReference.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\obj\Debug\ShopManagement.AddOrder.resources
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\obj\Debug\ShopManagement.ListOrder.resources
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\obj\Debug\ShopManagement.Properties.Resources.resources
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\obj\Debug\ShopManagementWin.csproj.GenerateResource.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\obj\Debug\ShopManagementWin.csproj.CoreCompileInputs.cache
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\obj\Debug\ShopManagement.exe
+D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\dotNetFramework\ShopManagement\obj\Debug\ShopManagement.pdb

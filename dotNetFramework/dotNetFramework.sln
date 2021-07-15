@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeHourWin", "ChangeHour
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadWin", "NotepadWin\NotepadWin.csproj", "{A43B31EF-CD06-4F9F-B87C-26FD2523B6C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PETrialConsole", "PETrialConsole\PETrialConsole.csproj", "{18A09562-C2D8-473C-9F34-05ECF1FD918A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{A43B31EF-CD06-4F9F-B87C-26FD2523B6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43B31EF-CD06-4F9F-B87C-26FD2523B6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43B31EF-CD06-4F9F-B87C-26FD2523B6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A09562-C2D8-473C-9F34-05ECF1FD918A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A09562-C2D8-473C-9F34-05ECF1FD918A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A09562-C2D8-473C-9F34-05ECF1FD918A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A09562-C2D8-473C-9F34-05ECF1FD918A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

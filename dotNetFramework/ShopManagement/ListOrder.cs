@@ -30,9 +30,17 @@ namespace ShopManagement
             // disable auto generate column
             dataGridView.AutoGenerateColumns = false;
 
-            cbCustomer.DisplayMember = "ContactName";
+            cbCustomer.DisplayMember = "CompanyName";
             cbCustomer.ValueMember = "CustomerID";
-            cbCustomer.DataSource = CustomerDAO.GetAllCustomer();
+
+            DataTable dt = CustomerDAO.GetAllCustomer();
+            // insert new row to datatable
+            DataRow data = dt.NewRow();
+            data["CustomerID"] = 0;
+            data["CompanyName"] = "All Customer";
+            dt.Rows.InsertAt(data, 0);
+
+            cbCustomer.DataSource = dt;
 
             cbEmployee.DisplayMember = "LastName";
             cbEmployee.ValueMember = "EmployeeID";
