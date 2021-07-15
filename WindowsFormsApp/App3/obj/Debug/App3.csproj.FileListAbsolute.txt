@@ -1,9 +1,0 @@
-E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App3\bin\Debug\App3.exe
-E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App3\bin\Debug\App3.pdb
-E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App3\obj\Debug\App3.csproj.AssemblyReference.cache
-E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App3\obj\Debug\App3.Corado.resources
-E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App3\obj\Debug\App3.Properties.Resources.resources
-E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App3\obj\Debug\App3.csproj.GenerateResource.cache
-E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App3\obj\Debug\App3.csproj.CoreCompileInputs.cache
-E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App3\obj\Debug\App3.exe
-E:\Leaning\semester-5\Prn_Code_In_Class\WindowsFormsApp\App3\obj\Debug\App3.pdb

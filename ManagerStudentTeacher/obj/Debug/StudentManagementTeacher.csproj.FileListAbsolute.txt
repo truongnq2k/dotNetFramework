@@ -1,7 +1,0 @@
-E:\Leaning\semester-5\Prn_Code_In_Class\ManagerStudentTeacher\bin\Debug\practice1.exe.config
-E:\Leaning\semester-5\Prn_Code_In_Class\ManagerStudentTeacher\bin\Debug\practice1.exe
-E:\Leaning\semester-5\Prn_Code_In_Class\ManagerStudentTeacher\bin\Debug\practice1.pdb
-E:\Leaning\semester-5\Prn_Code_In_Class\ManagerStudentTeacher\obj\Debug\StudentManagementTeacher.csprojAssemblyReference.cache
-E:\Leaning\semester-5\Prn_Code_In_Class\ManagerStudentTeacher\obj\Debug\StudentManagementTeacher.csproj.CoreCompileInputs.cache
-E:\Leaning\semester-5\Prn_Code_In_Class\ManagerStudentTeacher\obj\Debug\practice1.exe
-E:\Leaning\semester-5\Prn_Code_In_Class\ManagerStudentTeacher\obj\Debug\practice1.pdb

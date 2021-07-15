@@ -1,7 +1,0 @@
-D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebApplication\IntroductionWeb\bin\IntroductionWeb.dll.config
-D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebApplication\IntroductionWeb\bin\IntroductionWeb.dll
-D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebApplication\IntroductionWeb\bin\IntroductionWeb.pdb
-D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebApplication\IntroductionWeb\obj\Debug\IntroductionWeb.csproj.AssemblyReference.cache
-D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebApplication\IntroductionWeb\obj\Debug\IntroductionWeb.csproj.CoreCompileInputs.cache
-D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebApplication\IntroductionWeb\obj\Debug\IntroductionWeb.dll
-D:\Project\_LEARNING\semester-5\Prn_Code_In_Class\WebApplication\IntroductionWeb\obj\Debug\IntroductionWeb.pdb

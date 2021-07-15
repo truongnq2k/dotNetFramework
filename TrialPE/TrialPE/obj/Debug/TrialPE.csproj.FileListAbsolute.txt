@@ -1,9 +1,0 @@
-E:\Leaning\semester-5\Prn_Code_In_Class\TrialPE\TrialPE\bin\Debug\TrialPE.exe
-E:\Leaning\semester-5\Prn_Code_In_Class\TrialPE\TrialPE\bin\Debug\TrialPE.pdb
-E:\Leaning\semester-5\Prn_Code_In_Class\TrialPE\TrialPE\obj\Debug\TrialPE.csproj.AssemblyReference.cache
-E:\Leaning\semester-5\Prn_Code_In_Class\TrialPE\TrialPE\obj\Debug\TrialPE.Form1.resources
-E:\Leaning\semester-5\Prn_Code_In_Class\TrialPE\TrialPE\obj\Debug\TrialPE.Properties.Resources.resources
-E:\Leaning\semester-5\Prn_Code_In_Class\TrialPE\TrialPE\obj\Debug\TrialPE.csproj.GenerateResource.cache
-E:\Leaning\semester-5\Prn_Code_In_Class\TrialPE\TrialPE\obj\Debug\TrialPE.csproj.CoreCompileInputs.cache
-E:\Leaning\semester-5\Prn_Code_In_Class\TrialPE\TrialPE\obj\Debug\TrialPE.exe
-E:\Leaning\semester-5\Prn_Code_In_Class\TrialPE\TrialPE\obj\Debug\TrialPE.pdb
