@@ -3,29 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{BFA8F979-28DB-4FA6-B5A5-81809B1448E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDelegate", "Delegate\ConsoleDelegate.csproj", "{BFA8F979-28DB-4FA6-B5A5-81809B1448E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentClassInitialization", "StudentClassInitialization\StudentClassInitialization.csproj", "{64CEF6E9-628C-4A0D-B9B2-05ACFF4B9291}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleStudentClassInitialization", "StudentClassInitialization\ConsoleStudentClassInitialization.csproj", "{64CEF6E9-628C-4A0D-B9B2-05ACFF4B9291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileInitialization", "FileInitialization\FileInitialization.csproj", "{195C2A9B-11DA-4E64-8067-36BB1A7D6AE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleFileInitialization", "FileInitialization\ConsoleFileInitialization.csproj", "{195C2A9B-11DA-4E64-8067-36BB1A7D6AE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementFinal", "StudentManagementFinal\StudentManagementFinal.csproj", "{58B5EBCB-27DF-4280-83F9-54DB66F6FB2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleStudentManagementFinal", "StudentManagementFinal\ConsoleStudentManagementFinal.csproj", "{58B5EBCB-27DF-4280-83F9-54DB66F6FB2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{707DC2B4-90A0-4194-8BA9-973429A8A6B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{50168028-6556-438D-94FD-DF8F64332AF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEvent", "Event\ConsoleEvent.csproj", "{50168028-6556-438D-94FD-DF8F64332AF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDonViHanhChinh", "LibraryDonViHanhChinh\LibraryDonViHanhChinh.csproj", "{DA441A96-66DA-4861-92CA-61424B8F7F2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormCRUD", "WebWithNorthwind\WebFormCRUD.csproj", "{D4A5C8F6-012A-446B-A3A9-72AC5F3202A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagementWin", "ShopManagement\ShopManagementWin.csproj", "{035B092F-FD7A-496A-A897-D7F72DE07543}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinShopManagement", "ShopManagement\WinShopManagement.csproj", "{035B092F-FD7A-496A-A897-D7F72DE07543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeHourWin", "ChangeHourWin\ChangeHourWin.csproj", "{87C34370-FF30-4533-9CD8-7DC348FDB491}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinChangeHour", "ChangeHourWin\WinChangeHour.csproj", "{87C34370-FF30-4533-9CD8-7DC348FDB491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadWin", "NotepadWin\NotepadWin.csproj", "{A43B31EF-CD06-4F9F-B87C-26FD2523B6C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinNotepad", "NotepadWin\WinNotepad.csproj", "{A43B31EF-CD06-4F9F-B87C-26FD2523B6C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PETrialConsole", "PETrialConsole\PETrialConsole.csproj", "{18A09562-C2D8-473C-9F34-05ECF1FD918A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePETrial", "PETrialConsole\ConsolePETrial.csproj", "{18A09562-C2D8-473C-9F34-05ECF1FD918A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDateFormat", "DateFormat\ConsoleDateFormat.csproj", "{A53D47F1-C85F-4719-9295-98DFD30F6062}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{18A09562-C2D8-473C-9F34-05ECF1FD918A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18A09562-C2D8-473C-9F34-05ECF1FD918A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18A09562-C2D8-473C-9F34-05ECF1FD918A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53D47F1-C85F-4719-9295-98DFD30F6062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53D47F1-C85F-4719-9295-98DFD30F6062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53D47F1-C85F-4719-9295-98DFD30F6062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53D47F1-C85F-4719-9295-98DFD30F6062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

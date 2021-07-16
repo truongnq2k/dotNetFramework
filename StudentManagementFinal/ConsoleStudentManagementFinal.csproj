@@ -47,13 +47,13 @@
     <Compile Include="Validation.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FileInitialization\FileInitialization.csproj">
+    <ProjectReference Include="..\FileInitialization\ConsoleFileInitialization.csproj">
       <Project>{195c2a9b-11da-4e64-8067-36bb1a7d6ae8}</Project>
-      <Name>FileInitialization</Name>
+      <Name>ConsoleFileInitialization</Name>
     </ProjectReference>
-    <ProjectReference Include="..\StudentClassInitialization\StudentClassInitialization.csproj">
+    <ProjectReference Include="..\StudentClassInitialization\ConsoleStudentClassInitialization.csproj">
       <Project>{64cef6e9-628c-4a0d-b9b2-05acff4b9291}</Project>
-      <Name>StudentClassInitialization</Name>
+      <Name>ConsoleStudentClassInitialization</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
